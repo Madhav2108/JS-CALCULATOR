@@ -5,10 +5,8 @@ body{
 .heading{
 	width: 600px;
 	height: 50px;
-	margin:  10px auto;
+	margin:  8px auto;
 	border-radius: 3%;
-	background-color: #3E4049;
-	box-shadow: 1px 1px 8px 8px #212F3C;
 	
 }
 .topic{
@@ -35,10 +33,7 @@ body{
 .list{
 	background-color: #3E4049;
 }
-animation: mymove 7s infinite;
-@keyframes mymove {
-  50% {box-shadow: 1px 1px 8px 8px #212F3C;}
-}
+
 .container
 {
 	width: 1000px;
@@ -162,4 +157,35 @@ button:nth-child(3){
 	font-size: 20px;
 	color: lightgreen;
 	background-color:  #212F3C;
+}
+animation: mymove 7s infinite;
+@keyframes mymove {
+  50% {box-shadow: 1px 1px 8px 8px #212F3C;}
+}
+.number:hover{
+	box-shadow: 1px 1px 8px 8px white;
+}
+button:nth-child(1):hover{
+	box-shadow: 1px 1px 8px 8px red;
+}
+button:nth-child(2):hover{
+	box-shadow: 1px 1px 8px 8px red;
+}
+button:nth-child(12):hover{
+	box-shadow: 1px 1px 8px 8px red;
+}
+button:nth-child(3):hover{
+	box-shadow: 1px 1px 8px 8px lightgreen;
+}
+button:nth-child(4):hover{
+	box-shadow: 1px 1px 8px 8px orange;
+}
+button:nth-child(8):hover{
+	box-shadow: 1px 1px 8px 8px blue;
+}
+button:nth-child(16):hover{
+	box-shadow: 1px 1px 8px 8px yellow;
+}
+button:nth-child(20):hover{
+	box-shadow: 1px 1px 8px 8px green;
 }
