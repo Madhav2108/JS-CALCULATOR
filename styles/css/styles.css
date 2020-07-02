@@ -46,7 +46,7 @@ body{
 #keyboard{
 	height: 400px;
 	color: white;
-	background-color: #cc00eb;
+	background-color: #483D8B;
 }
 .operator, .number, .empty{
 	width: 50px;
@@ -60,7 +60,7 @@ body{
 	color: white;
 	background-color: black;
 }
-.number{
+.number , .empty{
 	color: white;
 	background-color: #483D8B;
 }
@@ -102,10 +102,10 @@ button:nth-child(20){
 button:nth-child(1){
 	font-size: 20px;
 	color: white;
-	background-color: black;
+	background-color:  #e60514;
 }
 button:nth-child(2){
 	font-size: 20px;
 	color: white;
-	background-color: black;
+	background-color:  #e60514;
 }
