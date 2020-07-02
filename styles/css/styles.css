@@ -1,13 +1,12 @@
 body{
 	font-family: 'Open Sans',sans-serif;
-	background-color: black;
 }
 .container
 {
 	width: 1000px;
 	height: 550px;
-	background-color: #686868;
-	margin: 20px auto;
+	background-color:  #8c1c73;
+	margin: 80px auto ;
 }
 #heading{
 	align-self: center;
@@ -16,7 +15,7 @@ body{
 #calculator{
 	width: 320px;
 	height: 520px;
-	background-color: black;
+	background-color: white;
 	color: white;
 	margin: 0 auto;
 	top: 20px;
@@ -26,23 +25,22 @@ body{
 }
 #result{
 	height: 120px;
-	color: white;
+	color: black;
 }
 #history{
 	text-align: right;
 	height: 20px;
-	color: white;
+	color: black;
 	margin: 0 20px;
 	padding-top: 20px;
 	font-size: 15px;
-	color: white;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 #output{
 	text-align: right;
 	height: 60px;
 	margin: 10px 20px;
-	color: white
+	color: black;
 	font-size: 30px;
 }
 #keyboard{
