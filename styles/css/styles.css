@@ -22,6 +22,19 @@ body{
 	font-size: 33px;
 
 }
+.mediashare{
+	width: 600px;
+	height: 50px;
+	margin:  0px auto;
+	border-radius: 3%;
+	background-color: #3E4049;
+	box-shadow: 1px 1px 8px 8px #212F3C;
+	color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.list{
+	background-color: #3E4049;
+}
 animation: mymove 7s infinite;
 @keyframes mymove {
   50% {box-shadow: 1px 1px 8px 8px #212F3C;}
