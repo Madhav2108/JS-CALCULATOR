@@ -5,7 +5,7 @@ body{
 {
 	width: 1000px;
 	height: 550px;
-	background-color:  #8c1c73;
+	background-color:  #3dad8f;
 	margin: 80px auto ;
 }
 #heading{
@@ -46,7 +46,7 @@ body{
 #keyboard{
 	height: 400px;
 	color: white;
-	background-color: black;
+	background-color: #cc00eb;
 }
 .operator, .number, .empty{
 	width: 50px;
@@ -60,10 +60,11 @@ body{
 	color: white;
 	background-color: black;
 }
-.number, .empty{
+.number{
 	color: white;
-	background-color: black;
+	background-color: #483D8B;
 }
+
 .number, .operator{
 	cursor: pointer;
 }
@@ -94,6 +95,16 @@ button:nth-child(16){
 	background-color: black;
 }
 button:nth-child(20){
+	font-size: 20px;
+	color: white;
+	background-color: black;
+}
+button:nth-child(1){
+	font-size: 20px;
+	color: white;
+	background-color: black;
+}
+button:nth-child(2){
 	font-size: 20px;
 	color: white;
 	background-color: black;
