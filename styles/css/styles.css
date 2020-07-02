@@ -1,12 +1,15 @@
 body{
 	font-family: 'Open Sans',sans-serif;
+	
 }
 .container
 {
 	width: 1000px;
 	height: 550px;
-	background-color:  #3dad8f;
+	background-image: url("background1.jpg");
+	
 	margin: 80px auto ;
+	
 }
 #heading{
 	align-self: center;
@@ -18,6 +21,7 @@ body{
 	background-color: white;
 	color: white;
 	margin: 0 auto;
+	
 	top: 20px;
 	position: relative;
 	border-radius: 5px;
@@ -26,6 +30,7 @@ body{
 #result{
 	height: 120px;
 	color: black;
+	
 }
 #history{
 	text-align: right;
