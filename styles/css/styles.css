@@ -16,6 +16,9 @@ body{
 	align-self: center;
 	margin: 1px auto;
 	color: white;
+	font-family: "Sofia";
+	color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 	font-size: 33px;
 
 }
