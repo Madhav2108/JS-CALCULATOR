@@ -164,28 +164,37 @@ animation: mymove 7s infinite;
 }
 .number:hover{
 	box-shadow: 1px 1px 8px 8px white;
+	background-color: black;
 }
 button:nth-child(1):hover{
 	box-shadow: 1px 1px 8px 8px red;
+	background-color: black;
 }
 button:nth-child(2):hover{
 	box-shadow: 1px 1px 8px 8px red;
+	background-color: black;
 }
 button:nth-child(12):hover{
 	box-shadow: 1px 1px 8px 8px red;
+	background-color: black;
 }
 button:nth-child(3):hover{
 	box-shadow: 1px 1px 8px 8px lightgreen;
+	background-color: black;
 }
 button:nth-child(4):hover{
 	box-shadow: 1px 1px 8px 8px orange;
+	background-color: black;
 }
 button:nth-child(8):hover{
 	box-shadow: 1px 1px 8px 8px blue;
+	background-color: black;
 }
 button:nth-child(16):hover{
 	box-shadow: 1px 1px 8px 8px yellow;
+	background-color: black;
 }
 button:nth-child(20):hover{
 	box-shadow: 1px 1px 8px 8px green;
+	background-color: black;
 }
