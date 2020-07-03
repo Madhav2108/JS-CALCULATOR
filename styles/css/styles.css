@@ -23,12 +23,33 @@ body{
 .mediashare{
 	width: 360px;
 	height: 50px;
-	margin:  0px auto;
+	margin:  auto;
 	border-radius: 3%;
 	background-color: #2E4053;
 	/*ox-shadow: 1px 1px 8px 8px #212F3C;*/
 	color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; 
+}
+#gt:hover
+{
+	border-radius: 3%;
+	background-color: #2E4053;
+	/*ox-shadow: 1px 1px 8px 8px #212F3C;*/
+	color: white;
+}
+#tw:hover
+{
+	border-radius: 3%;
+	background-color: #2E4053;
+	/*ox-shadow: 1px 1px 8px 8px #212F3C;*/
+	color: white;
+}
+#ins:hover
+{
+	border-radius: 3%;
+	background-color: #2E4053;
+	/*ox-shadow: 1px 1px 8px 8px #212F3C;*/
+	color: white;
 }
 .list{
 	background-color: #3E4049;
@@ -38,20 +59,18 @@ body{
 {
 	width: 1000px;
 	height: 550px;
-	background-image: url("background1.jpg");
-	opacity: 0.8;
+	background-image: url("background123.png");
+	opacity: 1;
 	margin: 30px auto ;
 	border-radius: 3%;
 	box-shadow: 1px 1px 8px 8px white;
 }
-
 
 #heading{
 	align-self: center;
 	color: red;
 }
 #calculator{
-	opacity: 3;
 	width: 320px;
 	height: 520px;
 	background-color: #3E4049;
@@ -68,7 +87,6 @@ body{
 	height: 120px;
 	color: white;
 
-	
 }
 #history{
 	text-align: right;
